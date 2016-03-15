@@ -5,6 +5,7 @@ resolver: lts-5.2
 
 # Local packages, usually specified by relative directory name
 packages:
+- location: '.'
 - location:
     git: https://github.com/beerendlauwers/haskell-selenese.git
     commit: HEAD
